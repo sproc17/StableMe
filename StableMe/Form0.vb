@@ -1,4 +1,7 @@
 ﻿Public Class Form0
+
+    Private Access As New DBControl
+
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         My.Forms.Form1.Show()
         Me.Close()
@@ -13,6 +16,10 @@
             My.Forms.StableMe1.Show()
             Me.Close()
         End If
+    End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+
     End Sub
 
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged

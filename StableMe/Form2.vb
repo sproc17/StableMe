@@ -3,7 +3,12 @@
     Private access As New DBControl
 
     Private Sub Form2_Shown(sender As Object, e As EventArgs) Handles Me.Shown
-        access.ExecQuery("SELECT * EmotionLogDB ORDER BY id DESC")
+        access.ExecQuery("SELECT emotion1, emotion2, emotion3, emotion4, emotion5, " & _
+                         "situation1, situation2, situation3, " & _
+                         "physical1, physical2, physical3, physical4, physical5 " & _
+                         "FROM emotionlogdb  WHERE  emotion2, emotion3, emotion4, emotion5, " & _
+                         "situation2, situation3, " & _
+                         "physical1, physical2, physical3, physical4, physical5 != 0 ORDER BY id DESC")
         If Not String.IsNullOrEmpty(access.exception) Then
             MsgBox(access.exception) : Exit Sub
         End If
@@ -41,7 +46,4 @@
         Me.Close()
     End Sub
 
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
-
-    End Sub
 End Class

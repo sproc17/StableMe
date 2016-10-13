@@ -1,9 +1,5 @@
 ﻿Public Class Form3
 
-    Dim provider As String
-    Dim dataFile As String
-    Dim connString As String
-    Dim myConnection As OleDbConnection = New OleDbConnection
     Dim em1 As Integer = 0
     Dim em2 As Integer = 0
     Dim em3 As Integer = 0
