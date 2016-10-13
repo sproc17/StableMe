@@ -660,6 +660,7 @@
         ElseIf PictureBox35.BorderStyle = BorderStyle.FixedSingle Then
             MsgBox("You said you have been having suicidal thought. Please call the National Suicide Hotline at 1-800-273-8255 if you need someone to talk to. We're here for you.", MsgBoxStyle.OkOnly, "StableMe")
         Else
+            AddLog()
             My.Forms.StableMe1.Show()
             Me.Close()
         End If

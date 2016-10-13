@@ -12,6 +12,7 @@
         ElseIf MaskedTextBox1.Text = "" Then
             MsgBox("You must enter a phone number.", MsgBoxStyle.OkOnly, "Error")
         Else
+            AddUser()
             My.Forms.StableMe1.Show()
             Me.Close()
         End If
