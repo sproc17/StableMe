@@ -108,6 +108,7 @@ Partial Class Form1
         '
         'Button1
         '
+        Me.Button1.Enabled = False
         Me.Button1.Font = New System.Drawing.Font("Eras Demi ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(363, 342)
         Me.Button1.Name = "Button1"

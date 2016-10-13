@@ -1,4 +1,5 @@
 ﻿Public Class Form3
+    Private Access As New DBControl
 
     Dim em1 As Integer = 0
     Dim em2 As Integer = 0
@@ -13,6 +14,7 @@
     Dim phys3 As Integer = 0
     Dim phys4 As Integer = 0
     Dim phys5 As Integer = 0
+    Dim note As String = ""
 
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
@@ -766,6 +768,30 @@
             End If
         Else
             PictureBox36.BorderStyle = BorderStyle.None
+        End If
+    End Sub
+
+    Private Sub AddLog()
+        Access.AddParams("@em1", em1)
+        Access.AddParams("@em2", em2)
+        Access.AddParams("@em3", em3)
+        Access.AddParams("@em4", em4)
+        Access.AddParams("@em5", em5)
+        Access.AddParams("@sit1", sit1)
+        Access.AddParams("@sit2", sit2)
+        Access.AddParams("@sit3", sit3)
+        Access.AddParams("@phys1", phys1)
+        Access.AddParams("@phys2", phys2)
+        Access.AddParams("@phys3", phys3)
+        Access.AddParams("@phys4", phys4)
+        Access.AddParams("@phys5", phys5)
+        Access.AddParams("@note", note)
+
+        Access.ExecQuery("INSERT INTO logindb (emotion1,emotion2,emotion3,emotion4,emotion5,situation1,situation2,situation3,physical1,physical2,physical3,physical4,physical5,notes) " & _
+                         "VALUE (@em1,@em2,@em3,@em4,@em5,@sit1,@sit2,@sit3,@phys1,@phys2,@phys3,@phys4,@phys5,@note); ")
+
+        If Not String.IsNullOrEmpty(Access.exception) Then
+
         End If
     End Sub
 End Class

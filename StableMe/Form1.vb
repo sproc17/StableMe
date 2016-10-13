@@ -1,4 +1,7 @@
 ﻿Public Class Form1
+
+    Private Access As New DBControl
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox1.Text = "" Then
             MsgBox("You must enter a username.", MsgBoxStyle.OkOnly, "Error")
@@ -14,19 +17,23 @@
         End If
     End Sub
 
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
-
+    Private Sub TextBoxCheck(sender As Object, e As EventArgs) Handles TextBox1.TextChanged, TextBox2.TextChanged, TextBox3.TextChanged, MaskedTextBox1.TextChanged
+        If Not String.IsNullOrWhiteSpace(TextBox1.Text) AndAlso Not String.IsNullOrWhiteSpace(TextBox2.Text) AndAlso Not String.IsNullOrWhiteSpace(TextBox3.Text) AndAlso Not String.IsNullOrWhiteSpace(MaskedTextBox1.Text) Then
+            Button1.Enabled = True
+        End If
     End Sub
 
-    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
+    Private Sub AddUser()
+        Access.AddParams("@user", TextBox1.Text)
+        Access.AddParams("@pass", TextBox2.Text)
+        Access.AddParams("@email", TextBox3.Text)
+        Access.AddParams("@phone", MaskedTextBox1.Text)
 
-    End Sub
+        Access.ExecQuery("INSERT INTO logindb (username,[password],email,phone) " & _
+                         "VALUE (@user,@pass,@email,@phone); ")
 
-    Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs) Handles TextBox3.TextChanged
-
-    End Sub
-
-    Private Sub MaskedTextBox1_MaskInputRejected(sender As Object, e As MaskInputRejectedEventArgs) Handles MaskedTextBox1.MaskInputRejected
-
+        If Not String.IsNullOrEmpty(Access.exception) Then
+            MsgBox(Access.exception)
+        End If
     End Sub
 End Class
