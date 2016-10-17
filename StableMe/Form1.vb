@@ -30,8 +30,8 @@
         Access.AddParams("@email", TextBox3.Text)
         Access.AddParams("@phone", MaskedTextBox1.Text)
 
-        Access.ExecQuery("INSERT INTO logindb (username,[password],email,phone) " & _
-                         "VALUE (@user,@pass,@email,@phone); ")
+        Access.ExecQuery("INSERT INTO LoginDB (username, [password], email, phone) " & _
+                         "VALUES (@user, @pass, @email, @phone); ")
 
         If Not String.IsNullOrEmpty(Access.exception) Then
             MsgBox(Access.exception)

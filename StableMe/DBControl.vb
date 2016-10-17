@@ -1,6 +1,6 @@
 ﻿Imports System.Data.OleDb
 Public Class DBControl
-    Private DBCon As New OleDbConnection("Provider=Microsoft.ACE.OLEDB12.0;Data Source=StableMe.accdb;")
+    Private DBCon As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=StableMe.accdb;")
     Private DBCmd As OleDbCommand
 
     Public DBDA As OleDbDataAdapter

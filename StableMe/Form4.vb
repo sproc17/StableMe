@@ -24,6 +24,6 @@
     Private Sub AddJournal()
         Access.AddParams("@journal", RichTextBox1.Text)
 
-        Access.ExecQuery("INSERT INTO journaldb (journal) VALUE @journal")
+        Access.ExecQuery("INSERT INTO JournaldDB (journal) VALUE @journal")
     End Sub
 End Class

@@ -788,8 +788,8 @@
         Access.AddParams("@phys5", phys5)
         Access.AddParams("@note", note)
 
-        Access.ExecQuery("INSERT INTO logindb (emotion1,emotion2,emotion3,emotion4,emotion5,situation1,situation2,situation3,physical1,physical2,physical3,physical4,physical5,notes) " & _
-                         "VALUE (@em1,@em2,@em3,@em4,@em5,@sit1,@sit2,@sit3,@phys1,@phys2,@phys3,@phys4,@phys5,@note); ")
+        Access.ExecQuery("INSERT INTO EmotionLoginDB (emotion1, emotion2, emotion3, emotion4, emotion5, situation1, situation2, situation3, physical1, physical2, physical3, physical4, physical5, notes) " & _
+                         "VALUE (@em1, @em2, @em3, @em4, @em5, @sit1, @sit2, @sit3, @phys1, @phys2, @phys3, @phys4, @phys5, @note); ")
 
         If Not String.IsNullOrEmpty(Access.exception) Then
 
