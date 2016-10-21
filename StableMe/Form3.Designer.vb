@@ -142,21 +142,19 @@ Partial Class Form3
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Eras Demi ITC", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(18, 16)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Font = New System.Drawing.Font("AR BONNIE", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(10, 12)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(131, 31)
+        Me.Label1.Size = New System.Drawing.Size(101, 41)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "StableMe"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(153, 16)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.PictureBox1.Location = New System.Drawing.Point(117, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(41, 31)
+        Me.PictureBox1.Size = New System.Drawing.Size(31, 35)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
@@ -164,59 +162,58 @@ Partial Class Form3
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Eras Demi ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(16, 72)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Font = New System.Drawing.Font("AR BONNIE", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(12, 72)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(162, 19)
+        Me.Label2.Size = New System.Drawing.Size(175, 26)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "How are you doing?"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Eras Demi ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(16, 189)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Font = New System.Drawing.Font("AR BONNIE", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(12, 213)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(321, 19)
+        Me.Label3.Size = New System.Drawing.Size(314, 26)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Why do you think you're feeling like this?"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(16, 316)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Font = New System.Drawing.Font("AR BONNIE", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(11, 347)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(157, 16)
+        Me.Label4.Size = New System.Drawing.Size(179, 26)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Any physical symptoms?"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(20, 508)
+        Me.TextBox1.Location = New System.Drawing.Point(15, 572)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(523, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(393, 27)
         Me.TextBox1.TabIndex = 5
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(21, 475)
+        Me.Label5.Font = New System.Drawing.Font("AR BONNIE", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(16, 534)
         Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(76, 16)
+        Me.Label5.Size = New System.Drawing.Size(90, 26)
         Me.Label5.TabIndex = 6
         Me.Label5.Text = "Any notes?"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(641, 558)
+        Me.Button1.Location = New System.Drawing.Point(481, 628)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(107, 33)
+        Me.Button1.Size = New System.Drawing.Size(110, 37)
         Me.Button1.TabIndex = 7
         Me.Button1.Text = "Log Emotions"
         Me.Button1.UseVisualStyleBackColor = True
@@ -224,10 +221,10 @@ Partial Class Form3
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(22, 90)
+        Me.PictureBox2.Location = New System.Drawing.Point(16, 101)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(42, 31)
+        Me.PictureBox2.Size = New System.Drawing.Size(32, 35)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 8
         Me.PictureBox2.TabStop = False
@@ -235,10 +232,10 @@ Partial Class Form3
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(77, 90)
+        Me.PictureBox3.Location = New System.Drawing.Point(72, 101)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(46, 31)
+        Me.PictureBox3.Size = New System.Drawing.Size(34, 35)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 9
         Me.PictureBox3.TabStop = False
@@ -246,10 +243,10 @@ Partial Class Form3
         'PictureBox4
         '
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(139, 90)
+        Me.PictureBox4.Location = New System.Drawing.Point(144, 101)
         Me.PictureBox4.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(46, 31)
+        Me.PictureBox4.Size = New System.Drawing.Size(34, 35)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 10
         Me.PictureBox4.TabStop = False
@@ -257,10 +254,10 @@ Partial Class Form3
         'PictureBox5
         '
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(202, 90)
+        Me.PictureBox5.Location = New System.Drawing.Point(204, 101)
         Me.PictureBox5.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(42, 31)
+        Me.PictureBox5.Size = New System.Drawing.Size(32, 35)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 11
         Me.PictureBox5.TabStop = False
@@ -268,10 +265,10 @@ Partial Class Form3
         'PictureBox6
         '
         Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
-        Me.PictureBox6.Location = New System.Drawing.Point(261, 90)
+        Me.PictureBox6.Location = New System.Drawing.Point(263, 101)
         Me.PictureBox6.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(45, 31)
+        Me.PictureBox6.Size = New System.Drawing.Size(34, 35)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox6.TabIndex = 12
         Me.PictureBox6.TabStop = False
@@ -279,10 +276,10 @@ Partial Class Form3
         'PictureBox7
         '
         Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
-        Me.PictureBox7.Location = New System.Drawing.Point(319, 90)
+        Me.PictureBox7.Location = New System.Drawing.Point(313, 101)
         Me.PictureBox7.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(42, 31)
+        Me.PictureBox7.Size = New System.Drawing.Size(32, 35)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox7.TabIndex = 13
         Me.PictureBox7.TabStop = False
@@ -290,10 +287,10 @@ Partial Class Form3
         'PictureBox8
         '
         Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
-        Me.PictureBox8.Location = New System.Drawing.Point(52, 334)
+        Me.PictureBox8.Location = New System.Drawing.Point(39, 376)
         Me.PictureBox8.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(40, 32)
+        Me.PictureBox8.Size = New System.Drawing.Size(30, 36)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox8.TabIndex = 14
         Me.PictureBox8.TabStop = False
@@ -301,10 +298,10 @@ Partial Class Form3
         'PictureBox9
         '
         Me.PictureBox9.Image = CType(resources.GetObject("PictureBox9.Image"), System.Drawing.Image)
-        Me.PictureBox9.Location = New System.Drawing.Point(378, 90)
+        Me.PictureBox9.Location = New System.Drawing.Point(371, 101)
         Me.PictureBox9.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(39, 31)
+        Me.PictureBox9.Size = New System.Drawing.Size(29, 35)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox9.TabIndex = 15
         Me.PictureBox9.TabStop = False
@@ -312,10 +309,10 @@ Partial Class Form3
         'PictureBox10
         '
         Me.PictureBox10.Image = CType(resources.GetObject("PictureBox10.Image"), System.Drawing.Image)
-        Me.PictureBox10.Location = New System.Drawing.Point(544, 331)
+        Me.PictureBox10.Location = New System.Drawing.Point(511, 373)
         Me.PictureBox10.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(44, 35)
+        Me.PictureBox10.Size = New System.Drawing.Size(33, 39)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox10.TabIndex = 16
         Me.PictureBox10.TabStop = False
@@ -323,10 +320,10 @@ Partial Class Form3
         'PictureBox11
         '
         Me.PictureBox11.Image = CType(resources.GetObject("PictureBox11.Image"), System.Drawing.Image)
-        Me.PictureBox11.Location = New System.Drawing.Point(22, 217)
+        Me.PictureBox11.Location = New System.Drawing.Point(16, 244)
         Me.PictureBox11.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(42, 41)
+        Me.PictureBox11.Size = New System.Drawing.Size(32, 46)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox11.TabIndex = 17
         Me.PictureBox11.TabStop = False
@@ -334,10 +331,10 @@ Partial Class Form3
         'PictureBox12
         '
         Me.PictureBox12.Image = CType(resources.GetObject("PictureBox12.Image"), System.Drawing.Image)
-        Me.PictureBox12.Location = New System.Drawing.Point(438, 90)
+        Me.PictureBox12.Location = New System.Drawing.Point(439, 101)
         Me.PictureBox12.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(44, 31)
+        Me.PictureBox12.Size = New System.Drawing.Size(33, 35)
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox12.TabIndex = 18
         Me.PictureBox12.TabStop = False
@@ -345,10 +342,10 @@ Partial Class Form3
         'PictureBox13
         '
         Me.PictureBox13.Image = CType(resources.GetObject("PictureBox13.Image"), System.Drawing.Image)
-        Me.PictureBox13.Location = New System.Drawing.Point(500, 90)
+        Me.PictureBox13.Location = New System.Drawing.Point(497, 101)
         Me.PictureBox13.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(38, 31)
+        Me.PictureBox13.Size = New System.Drawing.Size(28, 35)
         Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox13.TabIndex = 19
         Me.PictureBox13.TabStop = False
@@ -356,10 +353,10 @@ Partial Class Form3
         'PictureBox14
         '
         Me.PictureBox14.Image = CType(resources.GetObject("PictureBox14.Image"), System.Drawing.Image)
-        Me.PictureBox14.Location = New System.Drawing.Point(134, 335)
+        Me.PictureBox14.Location = New System.Drawing.Point(122, 376)
         Me.PictureBox14.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(46, 32)
+        Me.PictureBox14.Size = New System.Drawing.Size(34, 36)
         Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox14.TabIndex = 20
         Me.PictureBox14.TabStop = False
@@ -367,10 +364,10 @@ Partial Class Form3
         'PictureBox15
         '
         Me.PictureBox15.Image = CType(resources.GetObject("PictureBox15.Image"), System.Drawing.Image)
-        Me.PictureBox15.Location = New System.Drawing.Point(86, 217)
+        Me.PictureBox15.Location = New System.Drawing.Point(64, 244)
         Me.PictureBox15.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox15.Name = "PictureBox15"
-        Me.PictureBox15.Size = New System.Drawing.Size(52, 41)
+        Me.PictureBox15.Size = New System.Drawing.Size(39, 46)
         Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox15.TabIndex = 21
         Me.PictureBox15.TabStop = False
@@ -378,10 +375,10 @@ Partial Class Form3
         'PictureBox16
         '
         Me.PictureBox16.Image = CType(resources.GetObject("PictureBox16.Image"), System.Drawing.Image)
-        Me.PictureBox16.Location = New System.Drawing.Point(217, 334)
+        Me.PictureBox16.Location = New System.Drawing.Point(204, 372)
         Me.PictureBox16.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox16.Name = "PictureBox16"
-        Me.PictureBox16.Size = New System.Drawing.Size(40, 32)
+        Me.PictureBox16.Size = New System.Drawing.Size(30, 36)
         Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox16.TabIndex = 22
         Me.PictureBox16.TabStop = False
@@ -389,10 +386,10 @@ Partial Class Form3
         'PictureBox17
         '
         Me.PictureBox17.Image = CType(resources.GetObject("PictureBox17.Image"), System.Drawing.Image)
-        Me.PictureBox17.Location = New System.Drawing.Point(552, 90)
+        Me.PictureBox17.Location = New System.Drawing.Point(553, 101)
         Me.PictureBox17.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox17.Name = "PictureBox17"
-        Me.PictureBox17.Size = New System.Drawing.Size(36, 31)
+        Me.PictureBox17.Size = New System.Drawing.Size(27, 35)
         Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox17.TabIndex = 23
         Me.PictureBox17.TabStop = False
@@ -400,10 +397,10 @@ Partial Class Form3
         'PictureBox18
         '
         Me.PictureBox18.Image = CType(resources.GetObject("PictureBox18.Image"), System.Drawing.Image)
-        Me.PictureBox18.Location = New System.Drawing.Point(162, 216)
+        Me.PictureBox18.Location = New System.Drawing.Point(117, 243)
         Me.PictureBox18.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox18.Name = "PictureBox18"
-        Me.PictureBox18.Size = New System.Drawing.Size(40, 42)
+        Me.PictureBox18.Size = New System.Drawing.Size(30, 47)
         Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox18.TabIndex = 24
         Me.PictureBox18.TabStop = False
@@ -411,10 +408,10 @@ Partial Class Form3
         'PictureBox19
         '
         Me.PictureBox19.Image = CType(resources.GetObject("PictureBox19.Image"), System.Drawing.Image)
-        Me.PictureBox19.Location = New System.Drawing.Point(473, 331)
+        Me.PictureBox19.Location = New System.Drawing.Point(440, 373)
         Me.PictureBox19.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox19.Name = "PictureBox19"
-        Me.PictureBox19.Size = New System.Drawing.Size(43, 35)
+        Me.PictureBox19.Size = New System.Drawing.Size(32, 39)
         Me.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox19.TabIndex = 25
         Me.PictureBox19.TabStop = False
@@ -422,10 +419,10 @@ Partial Class Form3
         'PictureBox20
         '
         Me.PictureBox20.Image = CType(resources.GetObject("PictureBox20.Image"), System.Drawing.Image)
-        Me.PictureBox20.Location = New System.Drawing.Point(607, 90)
+        Me.PictureBox20.Location = New System.Drawing.Point(612, 101)
         Me.PictureBox20.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox20.Name = "PictureBox20"
-        Me.PictureBox20.Size = New System.Drawing.Size(41, 31)
+        Me.PictureBox20.Size = New System.Drawing.Size(31, 35)
         Me.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox20.TabIndex = 26
         Me.PictureBox20.TabStop = False
@@ -433,10 +430,10 @@ Partial Class Form3
         'PictureBox21
         '
         Me.PictureBox21.Image = CType(resources.GetObject("PictureBox21.Image"), System.Drawing.Image)
-        Me.PictureBox21.Location = New System.Drawing.Point(311, 331)
+        Me.PictureBox21.Location = New System.Drawing.Point(288, 372)
         Me.PictureBox21.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox21.Name = "PictureBox21"
-        Me.PictureBox21.Size = New System.Drawing.Size(50, 35)
+        Me.PictureBox21.Size = New System.Drawing.Size(38, 39)
         Me.PictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox21.TabIndex = 27
         Me.PictureBox21.TabStop = False
@@ -444,10 +441,10 @@ Partial Class Form3
         'PictureBox22
         '
         Me.PictureBox22.Image = CType(resources.GetObject("PictureBox22.Image"), System.Drawing.Image)
-        Me.PictureBox22.Location = New System.Drawing.Point(24, 403)
+        Me.PictureBox22.Location = New System.Drawing.Point(749, 370)
         Me.PictureBox22.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox22.Name = "PictureBox22"
-        Me.PictureBox22.Size = New System.Drawing.Size(49, 35)
+        Me.PictureBox22.Size = New System.Drawing.Size(37, 39)
         Me.PictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox22.TabIndex = 28
         Me.PictureBox22.TabStop = False
@@ -455,10 +452,10 @@ Partial Class Form3
         'PictureBox23
         '
         Me.PictureBox23.Image = CType(resources.GetObject("PictureBox23.Image"), System.Drawing.Image)
-        Me.PictureBox23.Location = New System.Drawing.Point(403, 332)
+        Me.PictureBox23.Location = New System.Drawing.Point(362, 372)
         Me.PictureBox23.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox23.Name = "PictureBox23"
-        Me.PictureBox23.Size = New System.Drawing.Size(51, 35)
+        Me.PictureBox23.Size = New System.Drawing.Size(38, 39)
         Me.PictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox23.TabIndex = 29
         Me.PictureBox23.TabStop = False
@@ -466,10 +463,10 @@ Partial Class Form3
         'PictureBox24
         '
         Me.PictureBox24.Image = CType(resources.GetObject("PictureBox24.Image"), System.Drawing.Image)
-        Me.PictureBox24.Location = New System.Drawing.Point(662, 90)
+        Me.PictureBox24.Location = New System.Drawing.Point(663, 101)
         Me.PictureBox24.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox24.Name = "PictureBox24"
-        Me.PictureBox24.Size = New System.Drawing.Size(39, 31)
+        Me.PictureBox24.Size = New System.Drawing.Size(29, 35)
         Me.PictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox24.TabIndex = 30
         Me.PictureBox24.TabStop = False
@@ -477,10 +474,10 @@ Partial Class Form3
         'PictureBox25
         '
         Me.PictureBox25.Image = CType(resources.GetObject("PictureBox25.Image"), System.Drawing.Image)
-        Me.PictureBox25.Location = New System.Drawing.Point(217, 217)
+        Me.PictureBox25.Location = New System.Drawing.Point(168, 245)
         Me.PictureBox25.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox25.Name = "PictureBox25"
-        Me.PictureBox25.Size = New System.Drawing.Size(47, 41)
+        Me.PictureBox25.Size = New System.Drawing.Size(35, 46)
         Me.PictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox25.TabIndex = 31
         Me.PictureBox25.TabStop = False
@@ -488,10 +485,10 @@ Partial Class Form3
         'PictureBox26
         '
         Me.PictureBox26.Image = CType(resources.GetObject("PictureBox26.Image"), System.Drawing.Image)
-        Me.PictureBox26.Location = New System.Drawing.Point(217, 403)
+        Me.PictureBox26.Location = New System.Drawing.Point(123, 453)
         Me.PictureBox26.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox26.Name = "PictureBox26"
-        Me.PictureBox26.Size = New System.Drawing.Size(44, 35)
+        Me.PictureBox26.Size = New System.Drawing.Size(33, 39)
         Me.PictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox26.TabIndex = 32
         Me.PictureBox26.TabStop = False
@@ -499,10 +496,10 @@ Partial Class Form3
         'PictureBox27
         '
         Me.PictureBox27.Image = CType(resources.GetObject("PictureBox27.Image"), System.Drawing.Image)
-        Me.PictureBox27.Location = New System.Drawing.Point(281, 216)
+        Me.PictureBox27.Location = New System.Drawing.Point(217, 243)
         Me.PictureBox27.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox27.Name = "PictureBox27"
-        Me.PictureBox27.Size = New System.Drawing.Size(50, 42)
+        Me.PictureBox27.Size = New System.Drawing.Size(38, 47)
         Me.PictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox27.TabIndex = 33
         Me.PictureBox27.TabStop = False
@@ -510,10 +507,10 @@ Partial Class Form3
         'PictureBox28
         '
         Me.PictureBox28.Image = CType(resources.GetObject("PictureBox28.Image"), System.Drawing.Image)
-        Me.PictureBox28.Location = New System.Drawing.Point(410, 216)
+        Me.PictureBox28.Location = New System.Drawing.Point(321, 243)
         Me.PictureBox28.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox28.Name = "PictureBox28"
-        Me.PictureBox28.Size = New System.Drawing.Size(53, 42)
+        Me.PictureBox28.Size = New System.Drawing.Size(40, 47)
         Me.PictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox28.TabIndex = 34
         Me.PictureBox28.TabStop = False
@@ -521,10 +518,10 @@ Partial Class Form3
         'PictureBox29
         '
         Me.PictureBox29.Image = CType(resources.GetObject("PictureBox29.Image"), System.Drawing.Image)
-        Me.PictureBox29.Location = New System.Drawing.Point(136, 403)
+        Me.PictureBox29.Location = New System.Drawing.Point(32, 453)
         Me.PictureBox29.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox29.Name = "PictureBox29"
-        Me.PictureBox29.Size = New System.Drawing.Size(49, 35)
+        Me.PictureBox29.Size = New System.Drawing.Size(37, 39)
         Me.PictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox29.TabIndex = 35
         Me.PictureBox29.TabStop = False
@@ -532,10 +529,10 @@ Partial Class Form3
         'PictureBox30
         '
         Me.PictureBox30.Image = CType(resources.GetObject("PictureBox30.Image"), System.Drawing.Image)
-        Me.PictureBox30.Location = New System.Drawing.Point(607, 331)
+        Me.PictureBox30.Location = New System.Drawing.Point(562, 372)
         Me.PictureBox30.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox30.Name = "PictureBox30"
-        Me.PictureBox30.Size = New System.Drawing.Size(39, 35)
+        Me.PictureBox30.Size = New System.Drawing.Size(29, 39)
         Me.PictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox30.TabIndex = 36
         Me.PictureBox30.TabStop = False
@@ -543,10 +540,10 @@ Partial Class Form3
         'PictureBox31
         '
         Me.PictureBox31.Image = CType(resources.GetObject("PictureBox31.Image"), System.Drawing.Image)
-        Me.PictureBox31.Location = New System.Drawing.Point(347, 216)
+        Me.PictureBox31.Location = New System.Drawing.Point(273, 242)
         Me.PictureBox31.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox31.Name = "PictureBox31"
-        Me.PictureBox31.Size = New System.Drawing.Size(41, 42)
+        Me.PictureBox31.Size = New System.Drawing.Size(31, 47)
         Me.PictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox31.TabIndex = 37
         Me.PictureBox31.TabStop = False
@@ -554,312 +551,340 @@ Partial Class Form3
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(13, 127)
+        Me.Label6.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(15, 139)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(39, 14)
+        Me.Label6.Size = New System.Drawing.Size(35, 18)
         Me.Label6.TabIndex = 38
         Me.Label6.Text = "Angry"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(63, 127)
+        Me.Label7.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(61, 139)
         Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(61, 14)
+        Me.Label7.Size = New System.Drawing.Size(62, 18)
         Me.Label7.TabIndex = 39
         Me.Label7.Text = "Emotional"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(131, 129)
+        Me.Label8.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(132, 139)
         Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(60, 14)
+        Me.Label8.Size = New System.Drawing.Size(58, 18)
         Me.Label8.TabIndex = 40
         Me.Label8.Text = "Motivated"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(202, 129)
+        Me.Label9.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(201, 139)
         Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(49, 14)
+        Me.Label9.Size = New System.Drawing.Size(48, 18)
         Me.Label9.TabIndex = 41
         Me.Label9.Text = "Content"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(255, 127)
+        Me.Label10.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(258, 139)
         Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(50, 14)
+        Me.Label10.Size = New System.Drawing.Size(46, 18)
         Me.Label10.TabIndex = 42
         Me.Label10.Text = "Anxious"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(316, 127)
+        Me.Label11.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(311, 139)
         Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(50, 14)
+        Me.Label11.Size = New System.Drawing.Size(45, 18)
         Me.Label11.TabIndex = 43
         Me.Label11.Text = "Stressed"
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(375, 127)
+        Me.Label12.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(368, 139)
         Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(45, 14)
+        Me.Label12.Size = New System.Drawing.Size(40, 18)
         Me.Label12.TabIndex = 44
         Me.Label12.Text = "Excited"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(431, 127)
+        Me.Label13.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(427, 139)
         Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(60, 14)
+        Me.Label13.Size = New System.Drawing.Size(57, 18)
         Me.Label13.TabIndex = 45
         Me.Label13.Text = "Frustrated"
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(495, 127)
+        Me.Label14.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(500, 139)
         Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(42, 14)
+        Me.Label14.Size = New System.Drawing.Size(35, 18)
         Me.Label14.TabIndex = 46
         Me.Label14.Text = "Happy"
         '
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(546, 127)
+        Me.Label15.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(550, 139)
         Me.Label15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(41, 14)
+        Me.Label15.Size = New System.Drawing.Size(34, 18)
         Me.Label15.TabIndex = 47
         Me.Label15.Text = "Empty"
         '
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(594, 127)
+        Me.Label16.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(598, 139)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(59, 14)
+        Me.Label16.Size = New System.Drawing.Size(57, 18)
         Me.Label16.TabIndex = 48
         Me.Label16.Text = "Confident"
         '
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(668, 127)
+        Me.Label17.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(668, 139)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(26, 14)
+        Me.Label17.Size = New System.Drawing.Size(24, 18)
         Me.Label17.TabIndex = 49
         Me.Label17.Text = "Sad"
         '
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(16, 265)
+        Me.Label18.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(13, 293)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(52, 16)
+        Me.Label18.Size = New System.Drawing.Size(40, 18)
         Me.Label18.TabIndex = 50
         Me.Label18.Text = "Friends"
         '
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(86, 263)
+        Me.Label19.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(66, 293)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(47, 16)
+        Me.Label19.Size = New System.Drawing.Size(34, 18)
         Me.Label19.TabIndex = 51
         Me.Label19.Text = "Family"
         '
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(150, 263)
+        Me.Label20.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(108, 293)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(61, 16)
+        Me.Label20.Size = New System.Drawing.Size(48, 18)
         Me.Label20.TabIndex = 52
         Me.Label20.Text = "Love Life"
         '
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(214, 263)
+        Me.Label21.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Location = New System.Drawing.Point(160, 293)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(48, 16)
+        Me.Label21.Size = New System.Drawing.Size(50, 18)
         Me.Label21.TabIndex = 53
         Me.Label21.Text = "School"
         '
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(286, 263)
+        Me.Label22.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(221, 293)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(45, 16)
+        Me.Label22.Size = New System.Drawing.Size(33, 18)
         Me.Label22.TabIndex = 54
         Me.Label22.Text = "Illness"
         '
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(344, 265)
+        Me.Label23.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(270, 292)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(42, 16)
+        Me.Label23.Size = New System.Drawing.Size(39, 18)
         Me.Label23.TabIndex = 55
         Me.Label23.Text = "Work"
         '
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(410, 265)
+        Me.Label24.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Location = New System.Drawing.Point(324, 293)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(52, 16)
+        Me.Label24.Size = New System.Drawing.Size(37, 18)
         Me.Label24.TabIndex = 56
         Me.Label24.Text = "Unsure"
         '
         'Label25
         '
         Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(3, 369)
+        Me.Label25.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(2, 415)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(114, 14)
+        Me.Label25.Size = New System.Drawing.Size(109, 18)
         Me.Label25.TabIndex = 57
         Me.Label25.Text = "Alcohol/Drug Abuse"
         '
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(123, 369)
+        Me.Label26.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Location = New System.Drawing.Point(115, 415)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(59, 14)
+        Me.Label26.Size = New System.Drawing.Size(49, 18)
         Me.Label26.TabIndex = 58
         Me.Label26.Text = "Headache"
         '
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(188, 369)
+        Me.Label27.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(170, 414)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(99, 14)
+        Me.Label27.Size = New System.Drawing.Size(85, 18)
         Me.Label27.TabIndex = 59
         Me.Label27.Text = "Increased Hunger"
         '
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(286, 369)
+        Me.Label28.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(260, 414)
+        Me.Label28.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(103, 14)
+        Me.Label28.Size = New System.Drawing.Size(89, 18)
         Me.Label28.TabIndex = 60
         Me.Label28.Text = "Decreased Hunger"
         '
         'Label29
         '
         Me.Label29.AutoSize = True
-        Me.Label29.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(402, 369)
+        Me.Label29.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Location = New System.Drawing.Point(356, 414)
+        Me.Label29.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(52, 14)
+        Me.Label29.Size = New System.Drawing.Size(54, 18)
         Me.Label29.TabIndex = 61
         Me.Label29.Text = "Paranoia"
         '
         'Label30
         '
         Me.Label30.AutoSize = True
-        Me.Label30.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(459, 369)
+        Me.Label30.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Location = New System.Drawing.Point(420, 414)
+        Me.Label30.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(79, 14)
+        Me.Label30.Size = New System.Drawing.Size(78, 18)
         Me.Label30.TabIndex = 62
         Me.Label30.Text = "Mood Swings"
         '
         'Label31
         '
         Me.Label31.AutoSize = True
-        Me.Label31.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(541, 369)
+        Me.Label31.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(508, 415)
+        Me.Label31.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(46, 14)
+        Me.Label31.Size = New System.Drawing.Size(38, 18)
         Me.Label31.TabIndex = 63
         Me.Label31.Text = "Fatigue"
         '
         'Label32
         '
         Me.Label32.AutoSize = True
-        Me.Label32.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(3, 441)
+        Me.Label32.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.Location = New System.Drawing.Point(714, 414)
+        Me.Label32.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(111, 14)
+        Me.Label32.Size = New System.Drawing.Size(98, 18)
         Me.Label32.TabIndex = 64
         Me.Label32.Text = "Decreased Sex Drive"
         '
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(593, 369)
+        Me.Label33.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Location = New System.Drawing.Point(552, 414)
+        Me.Label33.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(60, 14)
+        Me.Label33.Size = New System.Drawing.Size(53, 18)
         Me.Label33.TabIndex = 65
         Me.Label33.Text = "Withdraw"
         '
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.Location = New System.Drawing.Point(120, 441)
+        Me.Label34.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.Location = New System.Drawing.Point(18, 496)
+        Me.Label34.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(73, 14)
+        Me.Label34.Size = New System.Drawing.Size(58, 18)
         Me.Label34.TabIndex = 66
         Me.Label34.Text = "Weight Gain"
         '
         'Label35
         '
         Me.Label35.AutoSize = True
-        Me.Label35.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.Location = New System.Drawing.Point(206, 441)
+        Me.Label35.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.Location = New System.Drawing.Point(115, 495)
+        Me.Label35.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(58, 14)
+        Me.Label35.Size = New System.Drawing.Size(49, 18)
         Me.Label35.TabIndex = 67
         Me.Label35.Text = "Self Harm"
         '
         'PictureBox32
         '
         Me.PictureBox32.Image = CType(resources.GetObject("PictureBox32.Image"), System.Drawing.Image)
-        Me.PictureBox32.Location = New System.Drawing.Point(775, 90)
+        Me.PictureBox32.Location = New System.Drawing.Point(760, 101)
+        Me.PictureBox32.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox32.Name = "PictureBox32"
-        Me.PictureBox32.Size = New System.Drawing.Size(35, 31)
+        Me.PictureBox32.Size = New System.Drawing.Size(26, 35)
         Me.PictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox32.TabIndex = 68
         Me.PictureBox32.TabStop = False
@@ -867,19 +892,21 @@ Partial Class Form3
         'Label36
         '
         Me.Label36.AutoSize = True
-        Me.Label36.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(772, 127)
+        Me.Label36.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.Location = New System.Drawing.Point(757, 139)
+        Me.Label36.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(37, 14)
+        Me.Label36.Size = New System.Drawing.Size(39, 18)
         Me.Label36.TabIndex = 69
         Me.Label36.Text = "Other"
         '
         'PictureBox33
         '
         Me.PictureBox33.Image = CType(resources.GetObject("PictureBox33.Image"), System.Drawing.Image)
-        Me.PictureBox33.Location = New System.Drawing.Point(720, 90)
+        Me.PictureBox33.Location = New System.Drawing.Point(710, 101)
+        Me.PictureBox33.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox33.Name = "PictureBox33"
-        Me.PictureBox33.Size = New System.Drawing.Size(39, 31)
+        Me.PictureBox33.Size = New System.Drawing.Size(29, 35)
         Me.PictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox33.TabIndex = 70
         Me.PictureBox33.TabStop = False
@@ -887,19 +914,21 @@ Partial Class Form3
         'Label37
         '
         Me.Label37.AutoSize = True
-        Me.Label37.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(711, 127)
+        Me.Label37.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.Location = New System.Drawing.Point(707, 139)
+        Me.Label37.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(48, 14)
+        Me.Label37.Size = New System.Drawing.Size(44, 18)
         Me.Label37.TabIndex = 71
         Me.Label37.Text = "Drained"
         '
         'PictureBox34
         '
         Me.PictureBox34.Image = CType(resources.GetObject("PictureBox34.Image"), System.Drawing.Image)
-        Me.PictureBox34.Location = New System.Drawing.Point(482, 217)
+        Me.PictureBox34.Location = New System.Drawing.Point(374, 242)
+        Me.PictureBox34.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox34.Name = "PictureBox34"
-        Me.PictureBox34.Size = New System.Drawing.Size(45, 42)
+        Me.PictureBox34.Size = New System.Drawing.Size(34, 47)
         Me.PictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox34.TabIndex = 72
         Me.PictureBox34.TabStop = False
@@ -907,19 +936,21 @@ Partial Class Form3
         'Label38
         '
         Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(479, 265)
+        Me.Label38.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Location = New System.Drawing.Point(371, 292)
+        Me.Label38.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(37, 14)
+        Me.Label38.Size = New System.Drawing.Size(39, 18)
         Me.Label38.TabIndex = 73
         Me.Label38.Text = "Other"
         '
         'PictureBox35
         '
         Me.PictureBox35.Image = CType(resources.GetObject("PictureBox35.Image"), System.Drawing.Image)
-        Me.PictureBox35.Location = New System.Drawing.Point(671, 329)
+        Me.PictureBox35.Location = New System.Drawing.Point(648, 372)
+        Me.PictureBox35.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox35.Name = "PictureBox35"
-        Me.PictureBox35.Size = New System.Drawing.Size(58, 35)
+        Me.PictureBox35.Size = New System.Drawing.Size(44, 39)
         Me.PictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox35.TabIndex = 74
         Me.PictureBox35.TabStop = False
@@ -927,19 +958,21 @@ Partial Class Form3
         'Label39
         '
         Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(659, 369)
+        Me.Label39.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Location = New System.Drawing.Point(620, 414)
+        Me.Label39.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(100, 14)
+        Me.Label39.Size = New System.Drawing.Size(90, 18)
         Me.Label39.TabIndex = 75
         Me.Label39.Text = "Suicidal Thoughts"
         '
         'PictureBox36
         '
         Me.PictureBox36.Image = CType(resources.GetObject("PictureBox36.Image"), System.Drawing.Image)
-        Me.PictureBox36.Location = New System.Drawing.Point(281, 403)
+        Me.PictureBox36.Location = New System.Drawing.Point(191, 453)
+        Me.PictureBox36.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox36.Name = "PictureBox36"
-        Me.PictureBox36.Size = New System.Drawing.Size(42, 35)
+        Me.PictureBox36.Size = New System.Drawing.Size(32, 39)
         Me.PictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox36.TabIndex = 76
         Me.PictureBox36.TabStop = False
@@ -947,19 +980,20 @@ Partial Class Form3
         'Label40
         '
         Me.Label40.AutoSize = True
-        Me.Label40.Font = New System.Drawing.Font("Eras Demi ITC", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.Location = New System.Drawing.Point(286, 441)
+        Me.Label40.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.Location = New System.Drawing.Point(188, 495)
+        Me.Label40.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(37, 14)
+        Me.Label40.Size = New System.Drawing.Size(39, 18)
         Me.Label40.TabIndex = 77
         Me.Label40.Text = "Other"
         '
         'Form3
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(822, 603)
+        Me.ClientSize = New System.Drawing.Size(813, 678)
         Me.Controls.Add(Me.Label40)
         Me.Controls.Add(Me.PictureBox36)
         Me.Controls.Add(Me.Label39)
@@ -1038,8 +1072,7 @@ Partial Class Form3
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
-        Me.Font = New System.Drawing.Font("Eras Demi ITC", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "Form3"
         Me.Text = " "
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

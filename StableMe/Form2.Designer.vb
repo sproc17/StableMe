@@ -45,53 +45,54 @@ Partial Class StableMe1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Eras Demi ITC", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(8, 8)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Font = New System.Drawing.Font("AR BONNIE", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(5, 8)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(1, 0, 1, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(131, 31)
+        Me.Label1.Size = New System.Drawing.Size(101, 41)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "StableMe"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(143, 8)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox1.Location = New System.Drawing.Point(108, 8)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(1, 2, 1, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(39, 31)
+        Me.PictureBox1.Size = New System.Drawing.Size(43, 41)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Eras Demi ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(115, 66)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button1.Font = New System.Drawing.Font("AR BONNIE", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(161, 62)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(1, 2, 1, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(132, 52)
+        Me.Button1.Size = New System.Drawing.Size(118, 49)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Log Emotions"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(599, 66)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button2.Font = New System.Drawing.Font("AR BONNIE", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(582, 63)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(1, 2, 1, 2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(134, 52)
+        Me.Button2.Size = New System.Drawing.Size(118, 49)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "Log Thoughts"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Font = New System.Drawing.Font("Eras Demi ITC", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(392, 160)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button3.Font = New System.Drawing.Font("AR BONNIE", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(410, 144)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(1, 2, 1, 2)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(86, 96)
+        Me.Button3.Size = New System.Drawing.Size(84, 103)
         Me.Button3.TabIndex = 4
         Me.Button3.Text = "Journal"
         Me.Button3.UseVisualStyleBackColor = True
@@ -99,9 +100,10 @@ Partial Class StableMe1
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(664, 8)
+        Me.PictureBox2.Location = New System.Drawing.Point(747, 8)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(42, 31)
+        Me.PictureBox2.Size = New System.Drawing.Size(27, 29)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 6
         Me.PictureBox2.TabStop = False
@@ -109,9 +111,10 @@ Partial Class StableMe1
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(722, 8)
+        Me.PictureBox3.Location = New System.Drawing.Point(782, 8)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(52, 31)
+        Me.PictureBox3.Size = New System.Drawing.Size(33, 29)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 7
         Me.PictureBox3.TabStop = False
@@ -119,9 +122,10 @@ Partial Class StableMe1
         'PictureBox4
         '
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(792, 8)
+        Me.PictureBox4.Location = New System.Drawing.Point(824, 8)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(42, 31)
+        Me.PictureBox4.Size = New System.Drawing.Size(27, 29)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 8
         Me.PictureBox4.TabStop = False
@@ -129,18 +133,21 @@ Partial Class StableMe1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 260)
+        Me.Label2.Font = New System.Drawing.Font("AR BONNIE", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(7, 238)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(80, 19)
+        Me.Label2.Size = New System.Drawing.Size(81, 26)
         Me.Label2.TabIndex = 9
         Me.Label2.Text = "Past Logs"
         '
         'PictureBox5
         '
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(599, 8)
+        Me.PictureBox5.Location = New System.Drawing.Point(708, 8)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(47, 31)
+        Me.PictureBox5.Size = New System.Drawing.Size(30, 29)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 10
         Me.PictureBox5.TabStop = False
@@ -153,19 +160,20 @@ Partial Class StableMe1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(7, 282)
+        Me.DataGridView1.Location = New System.Drawing.Point(4, 267)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
         Me.DataGridView1.ShowCellErrors = False
-        Me.DataGridView1.Size = New System.Drawing.Size(827, 150)
+        Me.DataGridView1.Size = New System.Drawing.Size(850, 142)
         Me.DataGridView1.TabIndex = 11
         '
         'StableMe1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 19.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(846, 433)
+        Me.ClientSize = New System.Drawing.Size(862, 410)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.Label2)
@@ -177,8 +185,8 @@ Partial Class StableMe1
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
-        Me.Font = New System.Drawing.Font("Eras Demi ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "StableMe1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "StableMe"

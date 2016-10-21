@@ -39,80 +39,85 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(288, 56)
+        Me.TextBox1.Location = New System.Drawing.Point(288, 78)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(230, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(230, 27)
         Me.TextBox1.TabIndex = 0
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Eras Demi ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(364, 79)
+        Me.Label1.Font = New System.Drawing.Font("AR BONNIE", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(364, 109)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(85, 19)
+        Me.Label1.Size = New System.Drawing.Size(72, 26)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Username"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(288, 124)
+        Me.TextBox2.Location = New System.Drawing.Point(288, 172)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(230, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(230, 27)
         Me.TextBox2.TabIndex = 2
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Eras Demi ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(364, 147)
+        Me.Label2.Font = New System.Drawing.Font("AR BONNIE", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(364, 204)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(81, 19)
+        Me.Label2.Size = New System.Drawing.Size(89, 26)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Password"
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(288, 192)
+        Me.TextBox3.Location = New System.Drawing.Point(288, 266)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(230, 20)
+        Me.TextBox3.Size = New System.Drawing.Size(230, 27)
         Me.TextBox3.TabIndex = 4
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Eras Demi ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(364, 215)
+        Me.Label3.Font = New System.Drawing.Font("AR BONNIE", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(364, 298)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(115, 19)
+        Me.Label3.Size = New System.Drawing.Size(104, 26)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Email Address"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Eras Demi ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(359, 289)
+        Me.Label4.Font = New System.Drawing.Font("AR BONNIE", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(359, 400)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(123, 19)
+        Me.Label4.Size = New System.Drawing.Size(115, 26)
         Me.Label4.TabIndex = 7
         Me.Label4.Text = "Phone Number"
         '
         'MaskedTextBox1
         '
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(288, 265)
+        Me.MaskedTextBox1.Location = New System.Drawing.Point(288, 367)
+        Me.MaskedTextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.MaskedTextBox1.Mask = "(999) 000-0000"
         Me.MaskedTextBox1.Name = "MaskedTextBox1"
-        Me.MaskedTextBox1.Size = New System.Drawing.Size(230, 20)
+        Me.MaskedTextBox1.Size = New System.Drawing.Size(230, 27)
         Me.MaskedTextBox1.TabIndex = 8
         '
         'Button1
         '
         Me.Button1.Enabled = False
-        Me.Button1.Font = New System.Drawing.Font("Eras Demi ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(363, 342)
+        Me.Button1.Font = New System.Drawing.Font("AR BONNIE", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(363, 474)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(95, 34)
+        Me.Button1.Size = New System.Drawing.Size(95, 47)
         Me.Button1.TabIndex = 9
         Me.Button1.Text = "Sign Up!"
         Me.Button1.UseVisualStyleBackColor = True
@@ -120,29 +125,30 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Eras Demi ITC", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(12, 9)
+        Me.Label5.Font = New System.Drawing.Font("AR BONNIE", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(12, 12)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(131, 31)
+        Me.Label5.Size = New System.Drawing.Size(98, 39)
         Me.Label5.TabIndex = 10
         Me.Label5.Text = "StableMe"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(149, 3)
+        Me.PictureBox1.Location = New System.Drawing.Point(149, 4)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(63, 37)
+        Me.PictureBox1.Size = New System.Drawing.Size(63, 51)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 11
         Me.PictureBox1.TabStop = False
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(855, 424)
+        Me.ClientSize = New System.Drawing.Size(855, 587)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Button1)
@@ -154,6 +160,8 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox1)
+        Me.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form1"
         Me.Text = "StableMe"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

@@ -35,62 +35,67 @@ Partial Class Form9
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Eras Demi ITC", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(13, 13)
+        Me.Label1.Font = New System.Drawing.Font("AR BONNIE", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(13, 18)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(131, 31)
+        Me.Label1.Size = New System.Drawing.Size(101, 41)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "StableMe"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(150, 3)
+        Me.PictureBox1.Location = New System.Drawing.Point(150, 4)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(48, 41)
+        Me.PictureBox1.Size = New System.Drawing.Size(48, 57)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
         'ListView1
         '
-        Me.ListView1.Location = New System.Drawing.Point(298, 86)
+        Me.ListView1.Location = New System.Drawing.Point(298, 119)
+        Me.ListView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(258, 159)
+        Me.ListView1.Size = New System.Drawing.Size(258, 219)
         Me.ListView1.TabIndex = 2
         Me.ListView1.UseCompatibleStateImageBehavior = False
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Eras Demi ITC", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(380, 52)
+        Me.Label2.Font = New System.Drawing.Font("AR BONNIE", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(380, 72)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(101, 31)
+        Me.Label2.Size = New System.Drawing.Size(87, 41)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Trends"
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(326, 251)
+        Me.PictureBox2.Location = New System.Drawing.Point(326, 348)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(203, 181)
+        Me.PictureBox2.Size = New System.Drawing.Size(203, 251)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 4
         Me.PictureBox2.TabStop = False
         '
         'Form9
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(848, 444)
+        Me.ClientSize = New System.Drawing.Size(848, 615)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
+        Me.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form9"
         Me.Text = "StableMe"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

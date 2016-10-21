@@ -37,10 +37,10 @@ Partial Class Form0
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Eras Demi ITC", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("AR BONNIE", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(13, 13)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(131, 31)
+        Me.Label1.Size = New System.Drawing.Size(98, 39)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "StableMe"
         '
@@ -64,10 +64,10 @@ Partial Class Form0
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Eras Demi ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("AR BONNIE", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(358, 127)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(85, 19)
+        Me.Label2.Size = New System.Drawing.Size(72, 26)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Username"
         '
@@ -82,17 +82,17 @@ Partial Class Form0
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Eras Demi ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("AR BONNIE", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(358, 231)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(81, 19)
+        Me.Label3.Size = New System.Drawing.Size(89, 26)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Password"
         '
         'Button1
         '
         Me.Button1.Enabled = False
-        Me.Button1.Font = New System.Drawing.Font("Eras Demi ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("AR BONNIE", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(225, 298)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 33)
@@ -102,7 +102,7 @@ Partial Class Form0
         '
         'Button2
         '
-        Me.Button2.Font = New System.Drawing.Font("Eras Demi ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("AR BONNIE", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(491, 297)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(80, 34)

@@ -33,19 +33,20 @@ Partial Class Form7
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Eras Demi ITC", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(13, 13)
+        Me.Label1.Font = New System.Drawing.Font("AR BONNIE", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(13, 18)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(131, 31)
+        Me.Label1.Size = New System.Drawing.Size(101, 41)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "StableMe"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(150, 6)
+        Me.PictureBox1.Location = New System.Drawing.Point(120, 6)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(53, 38)
+        Me.PictureBox1.Size = New System.Drawing.Size(53, 53)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
@@ -53,9 +54,9 @@ Partial Class Form7
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(31, 84)
+        Me.LinkLabel1.Location = New System.Drawing.Point(31, 116)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(56, 13)
+        Me.LinkLabel1.Size = New System.Drawing.Size(49, 18)
         Me.LinkLabel1.TabIndex = 2
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Message1"
@@ -63,23 +64,25 @@ Partial Class Form7
         'LinkLabel2
         '
         Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Location = New System.Drawing.Point(31, 133)
+        Me.LinkLabel2.Location = New System.Drawing.Point(31, 184)
         Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(56, 13)
+        Me.LinkLabel2.Size = New System.Drawing.Size(49, 18)
         Me.LinkLabel2.TabIndex = 3
         Me.LinkLabel2.TabStop = True
         Me.LinkLabel2.Text = "Message2"
         '
         'Form7
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(848, 433)
+        Me.ClientSize = New System.Drawing.Size(848, 600)
         Me.Controls.Add(Me.LinkLabel2)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
+        Me.Font = New System.Drawing.Font("AR BONNIE", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form7"
         Me.Text = "StableMe"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
