@@ -1,6 +1,10 @@
 ﻿Public Class Form0
 
     Private Access As New DBControl
+    Dim uname As String = ""
+    Dim pword As String
+    Dim username As String = ""
+    Dim pass As String
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         My.Forms.Form1.Show()
@@ -8,13 +12,25 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If TextBox1.Text = "" Then
-            MsgBox("You must enter a username.", MsgBoxStyle.OkOnly, "Error")
-        ElseIf TextBox2.Text = "" Then
-            MsgBox("You must enter a password.", MsgBoxStyle.OkOnly, "Error")
-        Else
-            My.Forms.StableMe1.Show()
-            Me.Close()
+            If TextBox1.Text = "" Or TextBox2.Text = "" Then
+                MsgBox("You must enter all information.", MsgBoxStyle.OkOnly, "Error")
+            Else
+                uname = TextBox1.Text
+                pword = TextBox2.Text
+            Access.ExecQuery("Select password From Table1 where name= '" & uname & "';")
+            Try
+                pass = Access.PassFinder()
+            Catch ex As Exception
+                MsgBox("Username does not exist.")
+            End Try
+            If (pword = pass) Then
+                My.Forms.StableMe1.Show()
+                Me.Close()
+            Else
+                MsgBox("login Failed")
+                TextBox1.Clear()
+                TextBox2.Clear()
+            End If
         End If
     End Sub
 

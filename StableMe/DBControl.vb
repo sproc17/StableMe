@@ -36,4 +36,11 @@ Public Class DBControl
         Dim newParam As New OleDbParameter(name, value)
         params.Add(newParam)
     End Sub
+
+    Public Function PassFinder()
+        Dim passHolder As String = ""
+        passHolder = DBCmd.ExecuteScalar().ToString()
+        MsgBox(passHolder)
+        Return passHolder
+    End Function
 End Class

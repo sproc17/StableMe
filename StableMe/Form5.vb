@@ -12,6 +12,5 @@
             MsgBox(access.exception) : Exit Sub
         End If
         DataGridView1.DataSource = access.DBDT
-
     End Sub
 End Class
