@@ -17,7 +17,7 @@
             Else
                 uname = TextBox1.Text
                 pword = TextBox2.Text
-            Access.ExecQuery("Select password From Table1 where name= '" & uname & "';")
+            Access.ExecQuery("SELECT Password FROM LoginDB WHERE name= '" & uname & "';")
             Try
                 pass = Access.PassFinder()
             Catch ex As Exception
