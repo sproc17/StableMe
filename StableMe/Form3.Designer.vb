@@ -355,7 +355,7 @@ Partial Class Form3
         'PictureBox14
         '
         Me.PictureBox14.Image = CType(resources.GetObject("PictureBox14.Image"), System.Drawing.Image)
-        Me.PictureBox14.Location = New System.Drawing.Point(122, 376)
+        Me.PictureBox14.Location = New System.Drawing.Point(144, 376)
         Me.PictureBox14.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.PictureBox14.Name = "PictureBox14"
         Me.PictureBox14.Size = New System.Drawing.Size(34, 36)

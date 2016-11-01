@@ -27,18 +27,16 @@ Partial Class Form9
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ListView1 = New System.Windows.Forms.ListView()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("AR BONNIE", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Maiandra GD", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(13, 18)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(101, 41)
+        Me.Label1.Size = New System.Drawing.Size(146, 39)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "StableMe"
         '
@@ -58,30 +56,19 @@ Partial Class Form9
         Me.ListView1.Location = New System.Drawing.Point(298, 119)
         Me.ListView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(258, 219)
+        Me.ListView1.Size = New System.Drawing.Size(258, 298)
         Me.ListView1.TabIndex = 2
         Me.ListView1.UseCompatibleStateImageBehavior = False
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("AR BONNIE", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Maiandra GD", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(380, 72)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(87, 41)
+        Me.Label2.Size = New System.Drawing.Size(99, 35)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Trends"
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(326, 348)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(203, 251)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 4
-        Me.PictureBox2.TabStop = False
         '
         'Form9
         '
@@ -89,7 +76,6 @@ Partial Class Form9
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(848, 615)
-        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.PictureBox1)
@@ -99,7 +85,6 @@ Partial Class Form9
         Me.Name = "Form9"
         Me.Text = "StableMe"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -108,5 +93,4 @@ Partial Class Form9
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents ListView1 As System.Windows.Forms.ListView
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
 End Class
