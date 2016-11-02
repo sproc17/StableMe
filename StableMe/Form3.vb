@@ -15,6 +15,15 @@
     Dim phys4 As String = ""
     Dim phys5 As String = ""
     Dim note As String = ""
+    Dim eID1 As Integer = 0
+    Dim eID2 As Integer = 0
+    Dim eID3 As Integer = 0
+    Dim eID4 As Integer = 0
+    Dim eID5 As Integer = 0
+    Dim sID1 As Integer = 0
+    Dim sID2 As Integer = 0
+    Dim sID3 As Integer = 0
+
 
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
@@ -27,17 +36,21 @@
             PictureBox2.BorderStyle = BorderStyle.FixedSingle
             If em1 = "" Then
                 em1 = "Angry"
+                eID1 = 14
             ElseIf em1 <> "" And em2 = "" Then
                 em2 = "Angry"
+                eID2 = 14
             ElseIf em2 <> "" And em3 = "" Then
                 em3 = "Angry"
+                eID3 = 14
             ElseIf em3 <> "" And em4 = "" Then
                 em4 = "Angry"
+                eID4 = 14
             ElseIf em4 <> "" And em5 = "" Then
                 em5 = "Angry"
+                eID5 = 14
             Else
                 MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox2.BorderStyle = BorderStyle.None
@@ -49,17 +62,21 @@
             PictureBox3.BorderStyle = BorderStyle.FixedSingle
             If em1 = "" Then
                 em1 = "Emotional"
+                eID1 = 6
             ElseIf em1 <> "" And em2 = "" Then
                 em2 = "Emotional"
+                eID2 = 6
             ElseIf em2 <> "" And em3 = "" Then
                 em3 = "Emotional"
+                eID3 = 6
             ElseIf em3 <> "" And em4 = "" Then
                 em4 = "Emotional"
+                eID4 = 6
             ElseIf em4 <> "" And em5 = "" Then
                 em5 = "Emotional"
+                eID5 = 6
             Else
-                MsgBox("I know things can be rough, but try to stick to just 5 for, ok?", MsgBoxStyle.OkOnly, "Error")
-
+                MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
             End If
         Else
             PictureBox3.BorderStyle = BorderStyle.None
@@ -71,17 +88,21 @@
             PictureBox4.BorderStyle = BorderStyle.FixedSingle
             If em1 = "" Then
                 em1 = "Motivated"
+                eID1 = 8
             ElseIf em1 <> "" And em2 = "" Then
                 em2 = "Motivated"
+                eID2 = 8
             ElseIf em2 <> "" And em3 = "" Then
                 em3 = "Motivated"
+                eID3 = 8
             ElseIf em3 <> "" And em4 = "" Then
                 em4 = "Motivated"
+                eID4 = 8
             ElseIf em4 <> "" And em5 = "" Then
                 em5 = "Motivated"
+                eID5 = 8
             Else
-                MsgBox("I know things can be rough, but try to stick to just 5 now, ok?", MsgBoxStyle.OkOnly, "Error")
-
+                MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
             End If
         Else
             PictureBox4.BorderStyle = BorderStyle.None
@@ -93,17 +114,21 @@
             PictureBox5.BorderStyle = BorderStyle.FixedSingle
             If em1 = "" Then
                 em1 = "Content"
+                eID1 = 5
             ElseIf em1 <> "" And em2 = "" Then
                 em2 = "Content"
+                eID2 = 5
             ElseIf em2 <> "" And em3 = "" Then
                 em3 = "Content"
+                eID3 = 5
             ElseIf em3 <> "" And em4 = "" Then
                 em4 = "Content"
+                eID4 = 5
             ElseIf em4 <> "" And em5 = "" Then
                 em5 = "Content"
+                eID5 = 5
             Else
                 MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox5.BorderStyle = BorderStyle.None
@@ -115,17 +140,21 @@
             PictureBox6.BorderStyle = BorderStyle.FixedSingle
             If em1 = "" Then
                 em1 = "Anxious"
+                eID1 = 7
             ElseIf em1 <> "" And em2 = "" Then
                 em2 = "Anxious"
+                eID2 = 7
             ElseIf em2 <> "" And em3 = "" Then
                 em3 = "Anxious"
+                eID3 = 7
             ElseIf em3 <> "" And em4 = "" Then
                 em4 = "Anxious"
+                eID4 = 7
             ElseIf em4 <> "" And em5 = "" Then
                 em5 = "Anxious"
+                eID5 = 7
             Else
                 MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox6.BorderStyle = BorderStyle.None
@@ -137,17 +166,21 @@
             PictureBox7.BorderStyle = BorderStyle.FixedSingle
             If em1 = "" Then
                 em1 = "Stressed"
+                eID1 = 12
             ElseIf em1 <> "" And em2 = "" Then
                 em2 = "Stressed"
+                eID2 = 12
             ElseIf em2 <> "" And em3 = "" Then
                 em3 = "Stressed"
+                eID3 = 12
             ElseIf em3 <> "" And em4 = "" Then
                 em4 = "Stressed"
+                eID4 = 12
             ElseIf em4 <> "" And em5 = "" Then
                 em5 = "Stressed"
+                eID5 = 12
             Else
                 MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox7.BorderStyle = BorderStyle.None
@@ -159,17 +192,21 @@
             PictureBox9.BorderStyle = BorderStyle.FixedSingle
             If em1 = "" Then
                 em1 = "Excited"
+                eID1 = 9
             ElseIf em1 <> "" And em2 = "" Then
                 em2 = "Excited"
+                eID2 = 9
             ElseIf em2 <> "" And em3 = "" Then
                 em3 = "Excited"
+                eID3 = 9
             ElseIf em3 <> "" And em4 = "" Then
                 em4 = "Excited"
+                eID4 = 9
             ElseIf em4 <> "" And em5 = "" Then
                 em5 = "Excited"
+                eID5 = 9
             Else
                 MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox9.BorderStyle = BorderStyle.None
@@ -181,17 +218,21 @@
             PictureBox12.BorderStyle = BorderStyle.FixedSingle
             If em1 = "" Then
                 em1 = "Frustrated"
+                eID1 = 4
             ElseIf em1 <> "" And em2 = "" Then
                 em2 = "Frustrated"
+                eID2 = 4
             ElseIf em2 <> "" And em3 = "" Then
                 em3 = "Frustrated"
+                eID3 = 4
             ElseIf em3 <> "" And em4 = "" Then
                 em4 = "Frustrated"
+                eID4 = 4
             ElseIf em4 <> "" And em5 = "" Then
                 em5 = "Frustrated"
+                eID5 = 4
             Else
                 MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox12.BorderStyle = BorderStyle.None
@@ -203,17 +244,21 @@
             PictureBox13.BorderStyle = BorderStyle.FixedSingle
             If em1 = "" Then
                 em1 = "Happy"
+                eID1 = 1
             ElseIf em1 <> "" And em2 = "" Then
                 em2 = "Happy"
+                eID2 = 1
             ElseIf em2 <> "" And em3 = "" Then
                 em3 = "Happy"
+                eID3 = 1
             ElseIf em3 <> "" And em4 = "" Then
                 em4 = "Happy"
+                eID4 = 1
             ElseIf em4 <> "" And em5 = "" Then
                 em5 = "Happy"
+                eID5 = 1
             Else
                 MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox13.BorderStyle = BorderStyle.None
@@ -225,17 +270,21 @@
             PictureBox17.BorderStyle = BorderStyle.FixedSingle
             If em1 = "" Then
                 em1 = "Empty"
+                eID1 = 3
             ElseIf em1 <> "" And em2 = "" Then
                 em2 = "Empty"
+                eID2 = 3
             ElseIf em2 <> "" And em3 = "" Then
                 em3 = "Empty"
+                eID3 = 3
             ElseIf em3 <> "" And em4 = "" Then
                 em4 = "Empty"
+                eID4 = 3
             ElseIf em4 <> "" And em5 = "" Then
                 em5 = "Empty"
+                eID5 = 3
             Else
                 MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox17.BorderStyle = BorderStyle.None
@@ -247,17 +296,21 @@
             PictureBox20.BorderStyle = BorderStyle.FixedSingle
             If em1 = "" Then
                 em1 = "Confidant"
+                eID1 = 11
             ElseIf em1 <> "" And em2 = "" Then
                 em2 = "Confidant"
+                eID2 = 11
             ElseIf em2 <> "" And em3 = "" Then
                 em3 = "Confidant"
+                eID3 = 11
             ElseIf em3 <> "" And em4 = "" Then
                 em4 = "Confidant"
+                eID4 = 11
             ElseIf em4 <> "" And em5 = "" Then
                 em5 = "Confidant"
+                eID5 = 11
             Else
                 MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox20.BorderStyle = BorderStyle.None
@@ -269,17 +322,21 @@
             PictureBox24.BorderStyle = BorderStyle.FixedSingle
             If em1 = "" Then
                 em1 = "Sad"
+                eID1 = 2
             ElseIf em1 <> "" And em2 = "" Then
                 em2 = "Sad"
+                eID2 = 2
             ElseIf em2 <> "" And em3 = "" Then
                 em3 = "Sad"
+                eID3 = 2
             ElseIf em3 <> "" And em4 = "" Then
                 em4 = "Sad"
+                eID4 = 2
             ElseIf em4 <> "" And em5 = "" Then
                 em5 = "Sad"
+                eID4 = 2
             Else
                 MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox24.BorderStyle = BorderStyle.None
@@ -291,13 +348,15 @@
             PictureBox11.BorderStyle = BorderStyle.FixedSingle
             If sit1 = "" Then
                 sit1 = "Friends"
+                sID1 = 4
             ElseIf sit1 <> "" And sit2 = "" Then
                 sit2 = "Friends"
+                sID2 = 4
             ElseIf sit2 <> "" And sit3 = "" Then
                 sit3 = "Friends"
+                sID3 = 4
             Else
                 MsgBox("I know theres a lot going on, but try to stick to just 3 situations, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox11.BorderStyle = BorderStyle.None
@@ -309,13 +368,15 @@
             PictureBox15.BorderStyle = BorderStyle.FixedSingle
             If sit1 = "" Then
                 sit1 = "Family"
+                sID1 = 2
             ElseIf sit1 <> "" And sit2 = "" Then
                 sit2 = "Family"
+                sID2 = 2
             ElseIf sit2 <> "" And sit3 = "" Then
                 sit3 = "Family"
+                sID3 = 2
             Else
                 MsgBox("I know theres a lot going on, but try to stick to just 3 situations, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox15.BorderStyle = BorderStyle.None
@@ -327,13 +388,15 @@
             PictureBox18.BorderStyle = BorderStyle.FixedSingle
             If sit1 = "" Then
                 sit1 = "Love Life"
+                sID1 = 8
             ElseIf sit1 <> "" And sit2 = "" Then
                 sit2 = "Love Life"
+                sID2 = 8
             ElseIf sit2 <> "" And sit3 = "" Then
                 sit3 = "Love Life"
+                sID3 = 8
             Else
                 MsgBox("I know theres a lot going on, but try to stick to just 3 situations, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox18.BorderStyle = BorderStyle.None
@@ -345,13 +408,15 @@
             PictureBox25.BorderStyle = BorderStyle.FixedSingle
             If sit1 = "" Then
                 sit1 = "School"
+                sID1 = 6
             ElseIf sit1 <> "" And sit2 = "" Then
                 sit2 = "School"
+                sID2 = 6
             ElseIf sit2 <> "" And sit3 = "" Then
                 sit3 = "School"
+                sID3 = 6
             Else
                 MsgBox("I know theres a lot going on, but try to stick to just 3 situations, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox25.BorderStyle = BorderStyle.None
@@ -363,13 +428,15 @@
             PictureBox27.BorderStyle = BorderStyle.FixedSingle
             If sit1 = "" Then
                 sit1 = "Illness"
+                sID1 = 5
             ElseIf sit1 <> "" And sit2 = "" Then
                 sit2 = "Illness"
+                sID2 = 5
             ElseIf sit2 <> "" And sit3 = "" Then
                 sit3 = "Illness"
+                sID3 = 5
             Else
                 MsgBox("I know theres a lot going on, but try to stick to just 3 situations, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox27.BorderStyle = BorderStyle.None
@@ -381,13 +448,15 @@
             PictureBox31.BorderStyle = BorderStyle.FixedSingle
             If sit1 = "" Then
                 sit1 = "Work"
+                sID1 = 7
             ElseIf sit1 <> "" And sit2 = "" Then
                 sit2 = "Work"
+                sID2 = 7
             ElseIf sit2 <> "" And sit3 = "" Then
                 sit3 = "Work"
+                sID3 = 7
             Else
                 MsgBox("I know theres a lot going on, but try to stick to just 3 situations, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox31.BorderStyle = BorderStyle.None
@@ -399,13 +468,15 @@
             PictureBox28.BorderStyle = BorderStyle.FixedSingle
             If sit1 = "" Then
                 sit1 = "Unsure"
+                sID1 = 3
             ElseIf sit1 <> "" And sit2 = "" Then
                 sit2 = "Unsure"
+                sID2 = 3
             ElseIf sit2 <> "" And sit3 = "" Then
                 sit3 = "Unsure"
+                sID3 = 3
             Else
                 MsgBox("I know theres a lot going on, but try to stick to just 3 situations, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox28.BorderStyle = BorderStyle.None
@@ -426,8 +497,7 @@
             ElseIf phys4 <> "" And phys5 = "" Then
                 phys5 = "Alcohol/Drug Abuse"
             Else
-                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms for now, ok?", MsgBoxStyle.OkOnly, "Error")
-
+                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms, ok?", MsgBoxStyle.OkOnly, "Error")
             End If
         Else
             PictureBox8.BorderStyle = BorderStyle.None
@@ -448,8 +518,7 @@
             ElseIf phys4 <> "" And phys5 = "" Then
                 phys5 = "Headache"
             Else
-                MsgBox("I know things can be rough, but try to stick to just 5 physical symtoms for now, ok?", MsgBoxStyle.OkOnly, "Error")
-
+                MsgBox("I know things can be rough, but try to stick to just 5 physical symtoms, ok?", MsgBoxStyle.OkOnly, "Error")
             End If
         Else
             PictureBox14.BorderStyle = BorderStyle.None
@@ -470,8 +539,7 @@
             ElseIf phys4 <> "" And phys5 = "" Then
                 phys5 = "Increased Hunger"
             Else
-                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms for now, ok?", MsgBoxStyle.OkOnly, "Error")
-
+                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms, ok?", MsgBoxStyle.OkOnly, "Error")
             End If
         Else
             PictureBox16.BorderStyle = BorderStyle.None
@@ -492,8 +560,7 @@
             ElseIf phys4 <> "" And phys5 = "" Then
                 phys5 = "Decreased Hunger"
             Else
-                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms for now, ok?", MsgBoxStyle.OkOnly, "Error")
-
+                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms, ok?", MsgBoxStyle.OkOnly, "Error")
             End If
         Else
             PictureBox21.BorderStyle = BorderStyle.None
@@ -514,8 +581,7 @@
             ElseIf phys4 <> "" And phys5 = "" Then
                 phys5 = "Paranoia"
             Else
-                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms for now, ok?", MsgBoxStyle.OkOnly, "Error")
-
+                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms, ok?", MsgBoxStyle.OkOnly, "Error")
             End If
         Else
             PictureBox23.BorderStyle = BorderStyle.None
@@ -536,8 +602,7 @@
             ElseIf phys4 <> "" And phys5 = "" Then
                 phys5 = "Mood Swing"
             Else
-                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms for now, ok?", MsgBoxStyle.OkOnly, "Error")
-
+                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms, ok?", MsgBoxStyle.OkOnly, "Error")
             End If
         Else
             PictureBox19.BorderStyle = BorderStyle.None
@@ -558,8 +623,7 @@
             ElseIf phys4 <> "" And phys5 = "" Then
                 phys5 = "Fatigue"
             Else
-                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms for now, ok?", MsgBoxStyle.OkOnly, "Error")
-
+                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms, ok?", MsgBoxStyle.OkOnly, "Error")
             End If
         Else
             PictureBox10.BorderStyle = BorderStyle.None
@@ -580,8 +644,7 @@
             ElseIf phys4 <> "" And phys5 = "" Then
                 phys5 = "Withdraw"
             Else
-                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms for now, ok?", MsgBoxStyle.OkOnly, "Error")
-
+                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms, ok?", MsgBoxStyle.OkOnly, "Error")
             End If
         Else
             PictureBox30.BorderStyle = BorderStyle.None
@@ -602,8 +665,7 @@
             ElseIf phys4 <> "" And phys5 = "" Then
                 phys5 = "Decreased Sex Drive"
             Else
-                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms for now, ok?", MsgBoxStyle.OkOnly, "Error")
-
+                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms, ok?", MsgBoxStyle.OkOnly, "Error")
             End If
         Else
             PictureBox22.BorderStyle = BorderStyle.None
@@ -624,8 +686,7 @@
             ElseIf phys4 <> "" And phys5 = "" Then
                 phys5 = "Weight Gain"
             Else
-                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms for now, ok?", MsgBoxStyle.OkOnly, "Error")
-
+                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms, ok?", MsgBoxStyle.OkOnly, "Error")
             End If
         Else
             PictureBox29.BorderStyle = BorderStyle.None
@@ -646,8 +707,7 @@
             ElseIf phys4 <> "" And phys5 = "" Then
                 phys5 = "Self Harm"
             Else
-                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms for now, ok?", MsgBoxStyle.OkOnly, "Error")
-
+                MsgBox("I know things can be rough, but try to stick to just 5 physical symptoms, ok?", MsgBoxStyle.OkOnly, "Error")
             End If
         Else
             PictureBox26.BorderStyle = BorderStyle.None
@@ -671,17 +731,21 @@
             PictureBox33.BorderStyle = BorderStyle.FixedSingle
             If em1 = "" Then
                 em1 = "Drained"
+                eID1 = 10
             ElseIf em1 <> "" And em2 = "" Then
                 em2 = "Drained"
+                eID2 = 10
             ElseIf em2 <> "" And em3 = "" Then
                 em3 = "Drained"
+                eID3 = 10
             ElseIf em3 <> "" And em4 = "" Then
                 em4 = "Drained"
+                eID4 = 10
             ElseIf em4 <> "" And em5 = "" Then
                 em5 = "Drained"
+                eID5 = 10
             Else
                 MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox33.BorderStyle = BorderStyle.None
@@ -693,14 +757,19 @@
             PictureBox32.BorderStyle = BorderStyle.FixedSingle
             If em1 = "" Then
                 em1 = "Other"
+                eID1 = 13
             ElseIf em1 <> "" And em2 = "" Then
                 em2 = "Other"
+                eID2 = 13
             ElseIf em2 <> "" And em3 = "" Then
                 em3 = "Other"
+                eID3 = 13
             ElseIf em3 <> "" And em4 = "" Then
                 em4 = "Other"
+                eID4 = 13
             ElseIf em4 <> "" And em5 = "" Then
                 em5 = "Other"
+                eID5 = 13
             Else
                 MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
 
@@ -715,13 +784,15 @@
             PictureBox34.BorderStyle = BorderStyle.FixedSingle
             If sit1 = "" Then
                 sit1 = "Other"
+                sID1 = 1
             ElseIf sit1 <> "" And sit2 = "" Then
                 sit2 = "Other"
+                sID2 = 1
             ElseIf sit2 <> "" And sit3 = "" Then
                 sit3 = "Other"
+                sID3 = 1
             Else
                 MsgBox("I know theres a lot going on, but try to stick to just 3 situations, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox34.BorderStyle = BorderStyle.None
@@ -743,7 +814,6 @@
                 phys5 = "Suicidal Thoughts"
             Else
                 MsgBox("I know things can be rough, but try to stick to just 5 physical, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox35.BorderStyle = BorderStyle.None
@@ -765,7 +835,6 @@
                 phys5 = "Other"
             Else
                 MsgBox("I know things can be rough, but try to stick to just 5 emotions, ok?", MsgBoxStyle.OkOnly, "Error")
-
             End If
         Else
             PictureBox36.BorderStyle = BorderStyle.None
@@ -787,9 +856,21 @@
         Access.AddParams("@phys4", phys4)
         Access.AddParams("@phys5", phys5)
         Access.AddParams("@note", note)
+        Access.AddParams("@eID1", eID1)
+        Access.AddParams("@eID2", eID2)
+        Access.AddParams("@eID3", eID3)
+        Access.AddParams("@eID4", eID4)
+        Access.AddParams("@eID5", eID5)
+        Access.AddParams("@sID1", sID1)
+        Access.AddParams("@sID2", sID2)
+        Access.AddParams("@sID3", sID3)
 
-        Access.ExecQuery("INSERT INTO EmotionLogDB(emotion1, emotion2, emotion3, emotion4, emotion5, situation1, situation2, situation3, physical1, physical2, physical3, physical4, physical5, notes) " & _
-                         "VALUES (@em1, @em2, @em3, @em4, @em5, @sit1, @sit2, @sit3, @phys1, @phys2, @phys3, @phys4, @phys5, @note); ")
+        Access.ExecQuery("INSERT INTO EmotionLogDB(emotion1, emotion2, emotion3, emotion4, emotion5, " & _
+                         "situation1, situation2, situation3, physical1, physical2, physical3, physical4, physical5, " & _
+                         "notes, emID1, emID2, emID3, emID4, emID5, sitID1, sitID2, sitID3) " & _
+                         "VALUES (@em1, @em2, @em3, @em4, @em5, @sit1, @sit2, @sit3, " & _
+                         "@phys1, @phys2, @phys3, @phys4, @phys5, @note, " & _
+                         "@eID1, @eID2, @eID3, @eID4, @eID5, @sID1, @sID2, @sID3); ")
 
         If Not String.IsNullOrEmpty(Access.exception) Then
             MsgBox(Access.exception)

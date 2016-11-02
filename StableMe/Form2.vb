@@ -1,12 +1,13 @@
 ﻿Public Class StableMe1
 
     Private access As New DBControl
+    Public userID As Integer = 0
 
     Private Sub Form2_Shown(sender As Object, e As EventArgs) Handles Me.Shown
         access.ExecQuery("SELECT emotion1,emotion2,emotion3,emotion4,emotion5, " & _
                          "situation1,situation2,situation3, " & _
                          "physical1,physical2,physical3,physical4,physical5 " & _
-                         "FROM emotionlogdb ORDER BY id DESC")
+                         "FROM emotionlogdb ORDER BY id DESC WHERE User=" & userID & ";")
         If Not String.IsNullOrEmpty(access.exception) Then
             MsgBox(access.exception) : Exit Sub
         End If
