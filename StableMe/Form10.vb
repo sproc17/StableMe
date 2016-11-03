@@ -9,4 +9,10 @@
         My.Forms.Form0.Show()
         Me.Close()
     End Sub
+
+    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
+        If ComboBox1.SelectedIndex = 0 Then
+
+        End If
+    End Sub
 End Class

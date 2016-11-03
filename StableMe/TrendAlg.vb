@@ -1,4 +1,8 @@
 ﻿Public Class TrendAlg
+    Private Access As New DBControl
+    Dim emCt As Integer = 0
+    Dim sitCt As Integer = 0
+
     'looks through db
     'finds mode of past 7 entries for emotions
     'finds mode of past 7 entries for situations

@@ -5,6 +5,7 @@ Public Class DBControl
 
     Public DBDA As OleDbDataAdapter
     Public DBDT As DataTable
+    Public reader As OleDbDataReader
     Public params As New List(Of OleDbParameter)
     Public recordCt As Integer
     Public exception As String
@@ -37,10 +38,10 @@ Public Class DBControl
         params.Add(newParam)
     End Sub
 
-    Public Function PassFinder()
+    Public Function PassFinder(user As String)
+        ExecQuery("SELECT Password FROM LoginDB WHERE Username= '" & user & "';")
         Dim passHolder As String = ""
         passHolder = DBCmd.ExecuteScalar().ToString()
-        MsgBox(passHolder)
         Return passHolder
     End Function
 End Class

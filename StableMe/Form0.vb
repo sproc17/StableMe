@@ -1,4 +1,7 @@
-﻿Public Class Form0
+﻿Imports System.Data.SqlClient
+Imports System.Data.OleDb
+
+Public Class Form0
 
     Private Access As New DBControl
     Dim uname As String = ""
@@ -12,25 +15,28 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-            If TextBox1.Text = "" Or TextBox2.Text = "" Then
-                MsgBox("You must enter all information.", MsgBoxStyle.OkOnly, "Error")
-            Else
-                uname = TextBox1.Text
-                pword = TextBox2.Text
-            Access.ExecQuery("SELECT Password FROM LoginDB WHERE name= " & uname & ";")
-            Try
-                pass = Access.PassFinder()
-            Catch ex As Exception
-                MsgBox("Username does not exist.")
-            End Try
-            If (pword = pass) Then
-                My.Forms.StableMe1.Show()
-                Me.Close()
-            Else
-                MsgBox("login Failed")
-                TextBox1.Clear()
-                TextBox2.Clear()
-            End If
+        Dim exists As String = Nothing
+        Dim DBCon As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=StableMe.accdb;")
+        Using cmd As New OleDbCommand("SELECT 'X' FROM [LoginDB] WHERE [Username] = @un AND [Passphrase] = @pw", DBCon)
+            With cmd
+                Access.AddParams("@un", TextBox1.Text)
+                Access.AddParams("@pw", TextBox2.Text)
+                Try
+                    exists = .ExecuteScalar.ToString
+                Catch ex As Exception
+                    MsgBox(ex.ToString)
+                End Try
+            End With
+        End Using
+        DBCon.Close()
+
+        If exists IsNot Nothing AndAlso exists.Equals("X") Then
+            My.Forms.StableMe1.Show()
+            Me.Close()
+        Else
+            MsgBox("Login Failed")
+            TextBox1.Clear()
+            TextBox2.Clear()
         End If
     End Sub
 

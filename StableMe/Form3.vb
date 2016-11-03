@@ -23,6 +23,7 @@
     Dim sID1 As Integer = 0
     Dim sID2 As Integer = 0
     Dim sID3 As Integer = 0
+    Dim uID As Integer = 0
 
 
 
@@ -864,13 +865,14 @@
         Access.AddParams("@sID1", sID1)
         Access.AddParams("@sID2", sID2)
         Access.AddParams("@sID3", sID3)
+        Access.AddParams("@uID", uID)
 
         Access.ExecQuery("INSERT INTO EmotionLogDB(emotion1, emotion2, emotion3, emotion4, emotion5, " & _
                          "situation1, situation2, situation3, physical1, physical2, physical3, physical4, physical5, " & _
-                         "notes, emID1, emID2, emID3, emID4, emID5, sitID1, sitID2, sitID3) " & _
+                         "notes, emID1, emID2, emID3, emID4, emID5, sitID1, sitID2, sitID3, uID) " & _
                          "VALUES (@em1, @em2, @em3, @em4, @em5, @sit1, @sit2, @sit3, " & _
                          "@phys1, @phys2, @phys3, @phys4, @phys5, @note, " & _
-                         "@eID1, @eID2, @eID3, @eID4, @eID5, @sID1, @sID2, @sID3); ")
+                         "@eID1, @eID2, @eID3, @eID4, @eID5, @sID1, @sID2, @sID3, @uID); ")
 
         If Not String.IsNullOrEmpty(Access.exception) Then
             MsgBox(Access.exception)
