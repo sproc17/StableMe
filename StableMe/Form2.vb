@@ -7,7 +7,7 @@
         access.ExecQuery("SELECT emotion1,emotion2,emotion3,emotion4,emotion5, " & _
                          "situation1,situation2,situation3, " & _
                          "physical1,physical2,physical3,physical4,physical5 " & _
-                         "FROM emotionlogdb ORDER BY id DESC WHERE User=" & userID & ";")
+                         "FROM emotionlogdb ORDER BY id DESC;")
         If Not String.IsNullOrEmpty(access.exception) Then
             MsgBox(access.exception) : Exit Sub
         End If
