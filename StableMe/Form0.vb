@@ -15,26 +15,11 @@ Public Class Form0
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim exists As String = Nothing
-        Dim DBCon As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=StableMe.accdb;")
-        Using cmd As New OleDbCommand("SELECT 'X' FROM [LoginDB] WHERE [Username] = @un AND [Passphrase] = @pw", DBCon)
-            With cmd
-                Access.AddParams("@un", TextBox1.Text)
-                Access.AddParams("@pw", TextBox2.Text)
-                Try
-                    exists = .ExecuteScalar.ToString
-                Catch ex As Exception
-                    MsgBox(ex.ToString)
-                End Try
-            End With
-        End Using
-        DBCon.Close()
-
-        If exists IsNot Nothing AndAlso exists.Equals("X") Then
+        If TextBox1.Text = My.Settings.User And TextBox2.Text = My.Settings.Pass Then
             My.Forms.StableMe1.Show()
             Me.Close()
         Else
-            MsgBox("Login Failed")
+            MsgBox("Username or Password is incorrect", MsgBoxStyle.Information, "Error")
             TextBox1.Clear()
             TextBox2.Clear()
         End If

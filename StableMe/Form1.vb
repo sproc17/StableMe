@@ -18,7 +18,7 @@
         End If
     End Sub
 
-    Private Sub TextBoxCheck(sender As Object, e As EventArgs) Handles TextBox1.TextChanged, TextBox2.TextChanged, TextBox3.TextChanged, MaskedTextBox1.TextChanged
+    Private Sub TextBoxCheck(sender As Object, e As EventArgs) Handles TextBox1.TextChanged, TextBox2.TextChanged
         If Not String.IsNullOrWhiteSpace(TextBox1.Text) AndAlso Not String.IsNullOrWhiteSpace(TextBox2.Text) AndAlso Not String.IsNullOrWhiteSpace(TextBox3.Text) AndAlso Not String.IsNullOrWhiteSpace(MaskedTextBox1.Text) Then
             Button1.Enabled = True
         End If
