@@ -21,4 +21,10 @@
             Button1.Enabled = True
         End If
     End Sub
+
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
+        If CheckBox1.Checked Then
+            My.Settings.MainUser = True
+        End If
+    End Sub
 End Class

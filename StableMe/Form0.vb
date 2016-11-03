@@ -21,4 +21,11 @@
             Button1.Enabled = True
         End If
     End Sub
+
+    Private Sub Form0_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If My.Settings.Security = True Then
+            My.Forms.Form7.Show()
+            Me.Close()
+        End If
+    End Sub
 End Class
