@@ -12,7 +12,13 @@
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
         If ComboBox1.SelectedIndex = 0 Then
-
+            My.Settings.Security = False
+        Else
+            My.Settings.Security = True
         End If
+    End Sub
+
+    Private Sub Form10_Load(sender As Object, e As EventArgs) Handles Me.Load
+        ComboBox1.SelectedIndex = 0
     End Sub
 End Class

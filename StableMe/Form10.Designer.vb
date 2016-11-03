@@ -27,8 +27,6 @@ Partial Class Form10
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -59,7 +57,7 @@ Partial Class Form10
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.Font = New System.Drawing.Font("Maiandra GD", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Login", "Pin Number", "No Security"})
+        Me.ComboBox1.Items.AddRange(New Object() {"Login", "Pin Number"})
         Me.ComboBox1.Location = New System.Drawing.Point(236, 131)
         Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ComboBox1.Name = "ComboBox1"
@@ -76,33 +74,11 @@ Partial Class Form10
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Security Settings"
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Maiandra GD", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(244, 190)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(149, 19)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = "Notification Settings"
-        '
-        'ComboBox2
-        '
-        Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox2.Font = New System.Drawing.Font("Maiandra GD", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"Notify in the Morning", "Notify Midday", "Notify at Night", "No Notifications"})
-        Me.ComboBox2.Location = New System.Drawing.Point(236, 222)
-        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(169, 27)
-        Me.ComboBox2.TabIndex = 5
-        '
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.Font = New System.Drawing.Font("Maiandra GD", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LinkLabel1.Location = New System.Drawing.Point(285, 281)
+        Me.LinkLabel1.Location = New System.Drawing.Point(282, 197)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(66, 19)
         Me.LinkLabel1.TabIndex = 6
@@ -114,10 +90,8 @@ Partial Class Form10
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(610, 363)
+        Me.ClientSize = New System.Drawing.Size(610, 261)
         Me.Controls.Add(Me.LinkLabel1)
-        Me.Controls.Add(Me.ComboBox2)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.PictureBox1)
@@ -135,7 +109,5 @@ Partial Class Form10
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
     Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
 End Class

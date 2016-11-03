@@ -1,13 +1,4 @@
-﻿Imports System.Data.SqlClient
-Imports System.Data.OleDb
-
-Public Class Form0
-
-    Private Access As New DBControl
-    Dim uname As String = ""
-    Dim pword As String
-    Dim username As String = ""
-    Dim pass As String
+﻿Public Class Form0
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         My.Forms.Form1.Show()
