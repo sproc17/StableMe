@@ -24,8 +24,7 @@
     Dim sID2 As Integer = 0
     Dim sID3 As Integer = 0
     Dim uID As Integer = 0
-
-
+    Dim file As System.IO.StreamWriter
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
         My.Forms.StableMe1.Show()
@@ -715,12 +714,15 @@
         End If
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click 'HERE IS BUTTON
         If PictureBox26.BorderStyle = BorderStyle.FixedSingle Then
-            MsgBox("You said you've been self harming. Please call the Suicide Hotline at 1-800-273-8255 if you need someone to talk to. We're here for you.", MsgBoxStyle.OkOnly, "StableMe")
+            MsgBox("You said you've been self harming. Please call the Suicide Hotline at 1-800-273-8255 if you need someone to talk to. We're here for you.", MsgBoxStyle.Information, "StableMe")
         ElseIf PictureBox35.BorderStyle = BorderStyle.FixedSingle Then
-            MsgBox("You said you have been having suicidal thought. Please call the National Suicide Hotline at 1-800-273-8255 if you need someone to talk to. We're here for you.", MsgBoxStyle.OkOnly, "StableMe")
+            MsgBox("You said you have been having suicidal thought. Please call the National Suicide Hotline at 1-800-273-8255 if you need someone to talk to. We're here for you.", MsgBoxStyle.Information, "StableMe")
         Else
+            If PictureBox1.BorderStyle = BorderStyle.FixedSingle Then 'not right
+                FileWriter("Happy", "TxtFiles\emotions.txt", True)
+            End If
             AddLog()
             My.Forms.StableMe1.Show()
             Me.Close()
@@ -877,5 +879,11 @@
         If Not String.IsNullOrEmpty(Access.exception) Then
             MsgBox(Access.exception)
         End If
+    End Sub
+
+    Private Sub FileWriter(word As String, con As String, add As Boolean)
+        file = My.Computer.FileSystem.OpenTextFileWriter(con, add)
+        file.WriteLine(word)
+        file.Close()
     End Sub
 End Class
