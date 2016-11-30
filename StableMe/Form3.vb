@@ -23,8 +23,6 @@
     Dim sID1 As Integer = 0
     Dim sID2 As Integer = 0
     Dim sID3 As Integer = 0
-    Dim uID As Integer = 0
-    Dim file As System.IO.StreamWriter
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
         My.Forms.StableMe1.Show()
@@ -720,11 +718,9 @@
         ElseIf PictureBox35.BorderStyle = BorderStyle.FixedSingle Then
             MsgBox("You said you have been having suicidal thought. Please call the National Suicide Hotline at 1-800-273-8255 if you need someone to talk to. We're here for you.", MsgBoxStyle.Information, "StableMe")
         Else
-            If PictureBox1.BorderStyle = BorderStyle.FixedSingle Then 'not right
-                FileWriter("Happy", "TxtFiles\emotions.txt", True)
-            End If
             AddLog()
             My.Forms.StableMe1.Show()
+            My.Forms.Form9.Show()
             Me.Close()
         End If
     End Sub
@@ -867,23 +863,15 @@
         Access.AddParams("@sID1", sID1)
         Access.AddParams("@sID2", sID2)
         Access.AddParams("@sID3", sID3)
-        Access.AddParams("@uID", uID)
 
         Access.ExecQuery("INSERT INTO EmotionLogDB(emotion1, emotion2, emotion3, emotion4, emotion5, " & _
                          "situation1, situation2, situation3, physical1, physical2, physical3, physical4, physical5, " & _
-                         "notes, emID1, emID2, emID3, emID4, emID5, sitID1, sitID2, sitID3, uID) " & _
-                         "VALUES (@em1, @em2, @em3, @em4, @em5, @sit1, @sit2, @sit3, " & _
-                         "@phys1, @phys2, @phys3, @phys4, @phys5, @note, " & _
-                         "@eID1, @eID2, @eID3, @eID4, @eID5, @sID1, @sID2, @sID3, @uID); ")
+                         "notes, emID1, emID2, emID3, emID4, emID5, sitID1, sitID2, sitID3) " & _
+                         "VALUES (@em1, @em2, @em3, @em4, @em5, @sit1, @sit2, @sit3, @phys1, @phys2, @phys3, @phys4, @phys5, " & _
+                         " @note, @eID1, @eID2, @eID3, @eID4, @eID5, @sID1, @sID2, @sID3); ")
 
         If Not String.IsNullOrEmpty(Access.exception) Then
             MsgBox(Access.exception)
         End If
-    End Sub
-
-    Private Sub FileWriter(word As String, con As String, add As Boolean)
-        file = My.Computer.FileSystem.OpenTextFileWriter(con, add)
-        file.WriteLine(word)
-        file.Close()
     End Sub
 End Class
