@@ -720,7 +720,6 @@
         Else
             AddLog()
             My.Forms.StableMe1.Show()
-            My.Forms.Form9.Show()
             Me.Close()
         End If
     End Sub

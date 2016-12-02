@@ -8,10 +8,10 @@
     End Sub
 
     Private Sub Form6_Shown(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim sit = Alg.sitMode
-        Dim em = Alg.emMode
+        Dim sit As Integer = Alg.sitMode
+        Dim em As Integer = Alg.emMode
 
-        Access.ExecQuery("SELECT EmPlusSitMemo FROM TrendsDB WHERE EmotionID1= " & em & "AND SitID1 = " & sit & ";")
+        Access.ExecQuery("SELECT EmPlusSitMemo FROM TrendsDB WHERE EmotionID1= " & em & "AND SitID1= " & sit & ";")
         If Not String.IsNullOrEmpty(Access.exception) Then
             MsgBox(Access.exception) : Exit Sub
         End If
