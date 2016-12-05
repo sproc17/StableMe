@@ -101,6 +101,18 @@ Namespace My
                 Me("MainUser") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
+        Public Property Code() As Integer
+            Get
+                Return CType(Me("Code"),Integer)
+            End Get
+            Set
+                Me("Code") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

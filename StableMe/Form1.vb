@@ -10,6 +10,7 @@
         Else
             My.Settings.User = TextBox1.Text
             My.Settings.Pass = TextBox2.Text
+            My.Settings.Code = False
             My.Settings.Save()
             My.Forms.Form0.Show()
             Me.Close()

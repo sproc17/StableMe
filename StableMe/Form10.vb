@@ -15,6 +15,7 @@
             My.Settings.Security = False
         Else
             My.Settings.Security = True
+            My.Forms.Form8.Show()
         End If
     End Sub
 
