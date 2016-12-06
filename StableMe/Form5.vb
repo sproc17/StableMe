@@ -7,7 +7,7 @@
     End Sub
 
     Private Sub Form5_Shown(sender As Object, e As EventArgs) Handles Me.Shown
-        access.ExecQuery("SELECT journal FROM journalDB ORDER BY id DESC")
+        access.ExecQuery("SELECT Journal FROM JournalDB ORDER BY ID DESC")
         If Not String.IsNullOrEmpty(access.exception) Then
             MsgBox(access.exception) : Exit Sub
         End If

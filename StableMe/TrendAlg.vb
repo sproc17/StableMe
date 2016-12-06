@@ -1,4 +1,6 @@
 ﻿Imports System.Data.OleDb
+Imports System.Collections.Generic
+
 Public Class TrendAlg
     Private Access As New DBControl
     Dim hECt As Integer
@@ -32,7 +34,7 @@ Public Class TrendAlg
         Dim emNum As Integer
 
         Dim eStringArray = Access.returnQuery("SELECT TOP 10 Emotion1 FROM EmotionLogDB")
-        eArray = Array.ConvertAll(eStringArray, Function(str) Int32.Parse(str))
+        eArray = Array.ConvertAll(eStringArray, New Converter(Of String, Integer)(AddressOf StringToInteger))
         
         Dim i As Integer
         For i = 0 To i = 9
@@ -100,7 +102,7 @@ Public Class TrendAlg
         Dim sitNum As Integer
 
         Dim sStringArray = Access.returnQuery("SELECT TOP 10 Situation1 FROM EmotionLogDB")
-        sArray = Array.ConvertAll(sStringArray, Function(str) Int32.Parse(str))
+        sArray = Array.ConvertAll(sStringArray, New Converter(Of String, Integer)(AddressOf StringToInteger))
 
         Dim j As Integer = 0
         For j = 0 To j = 9
@@ -142,5 +144,11 @@ Public Class TrendAlg
             End If
         Next
         Return sitNum
+    End Function
+
+    Public Shared Function StringToInteger(ByVal x As String) As Integer
+        Dim output As Integer = 0
+        Integer.TryParse(x, output)
+        Return output
     End Function
 End Class

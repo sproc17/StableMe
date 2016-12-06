@@ -104,10 +104,10 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
-        Public Property Code() As Integer
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property Code() As String
             Get
-                Return CType(Me("Code"),Integer)
+                Return CType(Me("Code"),String)
             End Get
             Set
                 Me("Code") = value
